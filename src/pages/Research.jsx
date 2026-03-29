@@ -38,7 +38,7 @@ export default function Research() {
             </p>
             <p className="pillar__text">
               Does an analogous phenomenon hold for PDE solvers? If so, the
-              implications are profound — it would mean that the path to
+              implications are profound: it would mean that the path to
               general-purpose, high-accuracy surrogate models is primarily a
               matter of scale, not architectural innovation. The bitter lesson
               would apply once more.
@@ -75,7 +75,7 @@ export default function Research() {
                 </p>
                 <p className="pillar__subpoint-text">
                   Do PDE foundation models exhibit qualitative capability jumps at
-                  certain scales — for example, suddenly handling shocks or
+                  certain scales, for example suddenly handling shocks or
                   turbulence that smaller models cannot?
                 </p>
               </div>
@@ -101,7 +101,7 @@ export default function Research() {
               Equally important is the question of representation. Language models
               tokenize text into a discrete vocabulary that enables a single
               architecture to process all of human language. What is the analogous
-              tokenization for PDE data — solutions on meshes of varying
+              tokenization for PDE data: solutions on meshes of varying
               resolution, different dimensionalities, and heterogeneous physics?
             </p>
             <div className="pillar__subpoints">
@@ -123,7 +123,7 @@ export default function Research() {
                 <p className="pillar__subpoint-text">
                   Can we define a shared representation for PDE data that spans
                   different spatial dimensions, mesh types, and physical
-                  domains — analogous to BPE for text?
+                  domains, analogous to BPE for text?
                 </p>
               </div>
               <div className="pillar__subpoint">
@@ -150,7 +150,7 @@ export default function Research() {
             <p className="pillar__text">
               The entire value proposition of surrogate models for engineering
               design rests on a paradox: we want to use them to explore novel
-              configurations — which are, by definition, out of distribution.
+              configurations, which are, by definition, out of distribution.
               A model that is only trustworthy on interpolation is useful for
               acceleration but not for discovery.
             </p>
@@ -187,7 +187,7 @@ export default function Research() {
                 </p>
                 <p className="pillar__subpoint-text">
                   Hybrid strategies that use the surrogate when confident and
-                  fall back to classical solvers when not — optimizing the
+                  fall back to classical solvers when not, optimizing the
                   speed–reliability tradeoff for each query.
                 </p>
               </div>
@@ -211,15 +211,15 @@ export default function Research() {
               was in 2019: there is suggestive evidence that scale helps, transfer
               works in some regimes, and several groups are building foundation
               models. But no one has yet produced the equivalent of the Kaplan or
-              Chinchilla papers — a clean, quantitative, predictive relationship
+              Chinchilla papers: a clean, quantitative, predictive relationship
               between pretraining compute and downstream performance across a
               broad range of tasks.
             </p>
           </Reveal>
           <Reveal delay={0.1}>
             <p className="section__text">
-              Establishing whether such relationships exist — and characterizing
-              them precisely — would be a landmark result in scientific machine
+              Establishing whether such relationships exist, and characterizing
+              them precisely, would be a landmark result in scientific machine
               learning. This is the problem we are working on.
             </p>
           </Reveal>

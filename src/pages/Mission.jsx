@@ -30,7 +30,7 @@ export default function Mission() {
         </Reveal>
         <Reveal delay={0.05}>
           <p className="section__text">
-            Every engineered system — aircraft, turbines, reactors, chips — is
+            Every engineered system (aircraft, turbines, reactors, chips) is
             designed through iterative simulation of partial differential
             equations. Each cycle can take hours, days, or weeks. This cost
             fundamentally limits how much of the design space we can explore and
@@ -59,8 +59,8 @@ export default function Mission() {
           </Reveal>
           <Reveal delay={0.05}>
             <p className="section__text">
-              Neural PDE solvers — models that learn to approximate the
-              input-output mapping of a differential equation — can evaluate
+              Neural PDE solvers, models that learn to approximate the
+              input-output mapping of a differential equation, can evaluate
               orders of magnitude faster than classical solvers. If they can be
               made accurate and trustworthy enough, they would transform the
               design iteration cycle from hours to seconds.
@@ -103,7 +103,7 @@ export default function Mission() {
             },
             {
               title: 'Classical grounding',
-              text: 'We build on decades of numerical analysis, not just ML trends. Understanding the structure of PDEs — their symmetries, conservation laws, and spectral properties — informs every experiment we run.',
+              text: 'We build on decades of numerical analysis, not just ML trends. Understanding the structure of PDEs, their symmetries, conservation laws, and spectral properties, informs every experiment we run.',
             },
             {
               title: 'Empirical rigor',

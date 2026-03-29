@@ -27,7 +27,7 @@ export default function Layout({ children }) {
   return (
     <>
       <nav className={`nav ${scrolled ? 'nav--scrolled' : ''}`}>
-        <Link to="/" className="nav__logo">Foundations</Link>
+        <Link to="/" className="nav__logo">Scaling Solvers</Link>
 
         <button
           className={`nav__mobile-toggle ${mobileOpen ? 'nav__mobile-toggle--open' : ''}`}
@@ -56,7 +56,7 @@ export default function Layout({ children }) {
       </main>
 
       <footer className="footer">
-        <span className="footer__text">&copy; {new Date().getFullYear()} Foundations</span>
+        <span className="footer__text">&copy; {new Date().getFullYear()} Scaling Solvers</span>
         <ul className="footer__links">
           {NAV_ITEMS.map(({ to, label }) => (
             <li key={to}>

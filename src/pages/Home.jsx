@@ -16,7 +16,7 @@ const PILLARS = [
   {
     num: '01',
     title: 'Scaling Laws for PDEs',
-    text: 'Do neural PDE solvers follow predictable power-law scaling with compute, data, and parameters — the way large language models do? We run systematic experiments to find out.',
+    text: 'Do neural PDE solvers follow predictable power-law scaling with compute, data, and parameters, the way large language models do? We run systematic experiments to find out.',
   },
   {
     num: '02',
@@ -41,7 +41,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={0.1}>
             <h1 className="hero__title">
-              Foundations for PDE surrogates at&nbsp;scale.
+              The science of scaling PDE&nbsp;surrogates.
             </h1>
           </Reveal>
           <Reveal delay={0.2}>
@@ -77,7 +77,7 @@ export default function Home() {
             engineering design loop, they remain bound by the same constraint
             humans face: the time it takes to solve partial differential equations.
             Surrogate models that are fast, accurate, and trustworthy would
-            remove this bottleneck — accelerating progress by orders of magnitude.
+            remove this bottleneck, accelerating progress by orders of magnitude.
           </p>
         </Reveal>
         <Reveal delay={0.15}>
@@ -118,7 +118,7 @@ export default function Home() {
             the most effective, and by a large margin."
           </p>
           <p className="pullquote__attribution">
-            — Rich Sutton, <em>The Bitter Lesson</em> (2019)
+            - Rich Sutton, <em>The Bitter Lesson</em> (2019)
           </p>
         </div>
       </Reveal>
@@ -166,7 +166,7 @@ export default function Home() {
         </Reveal>
         <Reveal delay={0.05}>
           <p className="section__text">
-            Foundations is a new organization. If you are a researcher, engineer,
+            Scaling Solvers is a new organization. If you are a researcher, engineer,
             or funder interested in the science of PDE surrogate models at scale,
             we would like to hear from you.
           </p>
