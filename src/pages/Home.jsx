@@ -166,7 +166,7 @@ export default function Home() {
         </Reveal>
         <Reveal delay={0.05}>
           <p className="section__text">
-            Isometric Labs is a new organization. If you are a researcher, engineer,
+            Conformal Labs is a new organization. If you are a researcher, engineer,
             or funder interested in the science of PDE surrogate models at scale,
             we would like to hear from you.
           </p>
