@@ -21,7 +21,7 @@ const TEAM = [
     bio: [
       `Currently a research engineer at Harmonic working on post-training and search algorithms for frontier math reasoning models. PhD in Statistics from Michigan (advised by Ambuj Tewari), BA in Mathematics from Princeton. Research spans uncertainty quantification, robust optimization, operator learning, and PDE surrogate modeling.`,
       `Previously an Anthropic research fellow on the Frontier Red Team, a senior software engineer at Meta on real-time 3D reconstruction, and an intern at Waymo on importance sampling for rare-event simulation. His earliest research was at the Princeton Plasma Physics Lab, developing FDTD simulations of the Vlasov equation, work that planted the seed for his interest in PDE-based computation.`,
-      `Founded Scaling Solvers to pursue the open scientific questions that will determine whether neural PDE solvers can become reliable, scalable tools for engineering design.`,
+      `Founded Isometric Labs to pursue the open scientific questions that will determine whether neural PDE solvers can become reliable, scalable tools for engineering design.`,
     ],
     links: [
       { label: 'LinkedIn', url: 'https://www.linkedin.com/in/yash-patel-297b87a1/' },
